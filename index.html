@@ -70,62 +70,139 @@
     </table>
     <form action="">
         <h3>
-            Article 2 - Coming soon.....
+            List of Programming Languages 
         </h3>
+            <div>
+                <ol>
+                    <li>FrontEnd Programming Language</li>
+                    <ul>
+                         <li>HTML</li>
+                         <li>CSS</li>
+                         <li>JavaScript</li>
+                    </ul>
+                
+                
+                    <li>BackEnd Programming language</li>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>C++ etc</li>
+                    </ul>
+
+                   <li>Data Science Programming Language</li>
+                   <ul>
+                    <li>Python</li>
+                    <li>R</li>
+                   </ul>
+                </ol>
+            </div>
+         
         <h3>
             Contact us!
         </h3>
-        <h3>
-            General Information
-        </h3>
+        <fieldset> 
+        <legend> <h3>General Information</h3></legend>
+        <div>
         <label for="firstname">First Name :</label>
+        <br>
         <input type="text" id="firstname">
-        <br>
-        <label for="lastname">Last Name :</label>
-        <input type="text" id="lastname">
-        <br>
-        <label for="email">Email :</label>
-        <input type="email" id="email">
-        <br>
-        <label for="date">First Name :</label>
-        <input type="date" id="date">
+      </div>
+        <div>
+            <label for="lastname">Last Name :</label>
+            <br>
+            <input type="text" id="lastname">
+        </div>
+         <div>
+            <label for="email">Email :</label>
+            <br>
+            <input type="email" id="email">
+         </div>
+        <div>
+            <label for="date">Date:</label>
+            <br>
+            <input type="date" id="date">
+        </div>
+        <div>
+            <label for="gender">Gender:</label>
+            <input type="radio" id="gender" name="gender" value="Female">Female
+            <input type="radio" id="gender" name="gender" value="male">Male
+       
+        <div>
+            <label for="country">Choose your Country:</label>
+            <br>
+            <select name="country" id="country">
+                <option value="disabled selected">Choose your country</option>
+                <option value="nigeria">Nigeria</option>
+                <option value="america">America</option>
+                <option value="germany">Germany</option>
+                <option value="korea">Korea</option>
+                <option value="spain">Spain</option>
+                <option value="southafrica">South Africa</option>
+            </select>
+        </div>
+        <div>
+            <label for="school">School :</label>
+            <br>
+            <input type="text" id="school">
+       </div>
+    </fieldset>
         
+    <fieldset> 
+       <legend>  
         <h3>
             Essential Questions
         </h3>
+       </legend>
         <div>
             What kind of work do you need?
         </div>
+      <div>
         <label for="programmimg">Programming:</label>
         <input type="checkbox" id="programming" name="programming">
-        <br>
+      </div>
+        <div>
         <label for="design">Design:</label>
         <input type="checkbox" id="design" name="design">
-        <br>
-        <label for="singing">Singing:</label>
-        <input type="checkbox" id="singing" name="comedy">
-        <br>
-        <label for="comedy">Comedy:</label>
+        </div>
+        <div>
+            <label for="singing">Singing:</label>
+            <input type="checkbox" id="singing" name="singing">
+        </div>
+        <div>
+         <label for="comedy">Comedy:</label>
         <input type="checkbox" id="comedy" name="comedy">
+        </div>
         <p> 
          <div>
             How interested are you in our design skills
          </div>
+      <div>
         <label for="very">Very Low</label>
         <input type="radio" id="very" name="interest" value="very">
-        <br>
-        <label for="low">Low</label>
-        <input type="radio" id="low" name="interest" value="low">
-        <br>
+      </div>
+        <div>
+            <label for="low">Low</label>
+            <input type="radio" id="low" name="interest" value="low">
+        </div>
+       <div>
         <label for="medium">Medium</label>
         <input type="radio" id="medium" name="interest" value="medium">
-        <br>
+       </div>
+        <div>
         <label for="high">High</label>
         <input type="radio" id="high" name="interest" value="high">
-        <br>
-        <label for="veryhigh">Very High</label>
-        <input type="radio" id="veryhigh" name="interest" value="veryhigh">
-        <br>
+        </div>
+        <div>
+            <label for="veryhigh">Very High</label>
+            <input type="radio" id="veryhigh" name="interest" value="veryhigh">
+        </div>
+    </fieldset>
+
+        <div>
+            <span><b>COMMENTS</b></span> <br>
+           <textarea name="" id="" cols="100" rows="10" placeholder="Type your comments here"></textarea>
+        </div>
+
         <button>Submit me!</button>
         <footer>
             Here is our footer - let's make sure we copyright <span>&copy</span> this!
